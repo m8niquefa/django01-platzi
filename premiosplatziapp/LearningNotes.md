@@ -144,3 +144,12 @@ First we need to create a super user:
 Then log in:
 
 ```http://localhost:8000/admin```
+
+
+# Views
+
+There are two ways to create views in django. Function based and classes based. 
+
+## Functions Based Views
+
+## Classes Based Views: Generic Views
