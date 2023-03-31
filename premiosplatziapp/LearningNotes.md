@@ -127,3 +127,20 @@ For the example it will look like this:
 <QuerySet [<Choice: Curso Basico Python>, <Choice: Curso Elixir>, <Choice: Curso Java>]>
 >>> 
 ```
+
+# Data admin
+
+Not in flask or others. Feature unique from Django framework.
+
+Is basically an UI to modify data.
+
+Make sure to register the admin page in ```admin.py``` of the polls app.
+```admin.site.register(Question)```
+
+First we need to create a super user:
+
+```python manage.py createsuperuser```
+
+Then log in:
+
+```http://localhost:8000/admin```
