@@ -150,6 +150,20 @@ Then log in:
 
 There are two ways to create views in django. Function based and classes based. 
 
+Simple heuristic advice to choose between the two: If you can use Classes based views, used.
+
 ## Functions Based Views
 
 ## Classes Based Views: Generic Views
+
+Works better to meet the DRY principle (don't repeat yourself).
+
+There are several examples of Generic Views like:
+
+* ListView
+* LoginVies
+* LogoutView
+* CreateView
+* UpdateView
+
+Further reading: https://ccbv.co.uk 
