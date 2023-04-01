@@ -167,3 +167,14 @@ There are several examples of Generic Views like:
 * UpdateView
 
 Further reading: https://ccbv.co.uk 
+
+# Test in Django - Python
+
+
+Every time we run tests a database is created and destroyed after testing ends.
+
+Class two starts here. https://platzi.com/clases/2728-django-intermedio
+
+## Command for testing
+
+```python manage.py test polls```
